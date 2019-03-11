@@ -1,0 +1,112 @@
+.footer-container {
+    padding: 30px;
+    background-image: url(./ftr-bg.jpg);
+    color: white;
+    .pop-over-dropdown {
+        position: relative;
+        .btn {
+            margin-bottom: 12px;
+            padding: 9px 15px;
+            color: #fff;
+            border-radius: 20px;
+            background: #4a4a4a;
+            text-align: left;
+            cursor: pointer;
+            border-color: white;
+            width: 288px;
+            outline: none;
+        }
+        .caret {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+            width: 0;
+            height: 0;
+            margin-left: 2px;
+            vertical-align: middle;
+            border-top: 4px dashed;
+            border-top: 4px solid \9;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+        }
+    }
+    .footer-head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer-left {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            .search {
+                width: 315px;
+                padding: 10px;
+                border-top-left-radius: 20px;
+                border: none;
+                border-bottom-left-radius: 20px;
+            }
+            .button {
+                padding: 10.5px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                background-color: #ed1651;
+                color: white;
+                border: none;
+            }
+            .sub {
+                color: white;
+                font-size: 16px;
+                margin-right: 20px;
+            }
+        }
+    }
+    .footer-body {
+        display: flex;
+        justify-content: space-around;
+        .body-container {
+            color: white;
+            h6 {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .body-data {
+                font-weight: bold;
+                padding: 5px 0px;
+                a {
+                    color: white;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .footer-values {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid #4a4a4a;
+        border-bottom: 1px solid #4a4a4a;
+        padding: 15px;
+        h3 {
+            margin: 0;
+        }
+        .copyright {
+            font-size: 10px;
+            margin-top: 16px;
+        }
+        .social-links {
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                border: 1px solid;
+                border-radius: 20px;
+            }
+            a {
+                margin: 0px 10px;
+                color: white;
+            }
+        }
+    }
+}

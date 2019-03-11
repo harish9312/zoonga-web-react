@@ -1,0 +1,59 @@
+.card {
+    margin: 10px;
+    border: 1px solid;
+    position: relative;
+    border-color: #d0d0d0;
+    padding: 10px;
+    background: #f7f7f7;
+    &:hover {
+        background: #f7f7f7;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+    .ticket-details {
+        padding: 10px 0px;
+        .schedule {
+            font-size: 12px;
+            font-weight: bold;
+            color: #838383;
+        }
+        .venue {
+            margin: 0 0 8px;
+            font-size: 18px;
+            font-weight: bold;
+            &:hover {
+                color: #ce2211;
+            }
+        }
+        .full-venue {
+            margin: 0;
+        }
+    }
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 18px;
+        padding: 3px;
+        font-size: 10px;
+        background-color: whitesmoke;
+    }
+    .card-social-link {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #dedede;
+        padding-top: 10px;
+        .pull-left {
+            a {
+                margin: 0px 5px;
+            }
+        }
+        .pull-right {
+            .btn {
+                margin: 0px 5px;
+                width: 23px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
